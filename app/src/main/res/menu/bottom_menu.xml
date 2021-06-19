@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/myhome"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="首页"></item>
+
+<!--    <item-->
+<!--        android:id="@+id/photo"-->
+<!--        android:icon="@drawable/ic_photo_black_24dp"-->
+<!--        android:title="Photo"></item>-->
+
+    <item
+        android:id="@+id/search"
+        android:icon="@drawable/ic_search_black_24dp"
+        android:title="资讯"></item>
+
+    <item
+        android:id="@+id/user"
+        android:icon="@drawable/ic_person_black_24dp"
+        android:title="个人"></item>
+</menu>

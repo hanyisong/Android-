@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:padding="10dp"
+    android:background="@drawable/lv_bk_shape">
+    <ImageView
+        android:id="@+id/img_avatar"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ic_person_black_24dp"/>
+    <TextView
+        android:id="@+id/lv_nick_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:text="昵称:"
+        android:textSize="16dp"
+        android:layout_toRightOf="@id/img_avatar"/>
+
+    <TextView
+        android:id="@+id/lv_tv_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:text="test"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        android:layout_toRightOf="@id/lv_nick_name"/>
+
+    <TextView
+        android:id="@+id/lv_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lv_nick_name"
+        android:layout_toRightOf="@id/img_avatar"
+        android:text="观点："
+        android:layout_marginLeft="10dp"/>
+
+    <TextView
+        android:id="@+id/tv_viewpoint"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/lv_nick_name"
+        android:layout_toRightOf="@id/lv_content"
+        android:text="tesst的观点"
+        android:layout_marginLeft="10dp"/>
+
+</RelativeLayout>
